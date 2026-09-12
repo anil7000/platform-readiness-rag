@@ -1,0 +1,7 @@
+.git
+.venv
+.env
+.env.*
+private-knowledge
+reports
+__pycache__

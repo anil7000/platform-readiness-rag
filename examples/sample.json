@@ -1,0 +1,35 @@
+{
+  "apiVersion": "v1",
+  "kind": "List",
+  "items": [
+    {
+      "apiVersion": "apps/v1",
+      "kind": "Deployment",
+      "metadata": {
+        "name": "checkout-demo",
+        "namespace": "sandbox"
+      },
+      "spec": {
+        "replicas": 1,
+        "template": {
+          "spec": {
+            "containers": [
+              {
+                "name": "checkout",
+                "image": "example/checkout:latest",
+                "resources": {
+                  "requests": {
+                    "cpu": "100m"
+                  }
+                },
+                "securityContext": {
+                  "privileged": true
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
