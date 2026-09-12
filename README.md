@@ -4,7 +4,7 @@
 
 A deterministic static reviewer produces resource-specific findings, then retrieves local platform standards for an optional LLM explanation. The report separates starter checks from runtime health and unsupported resources.
 
-Original project created for **Anil Kumar Tangirala**. Python 3.11+; no runtime package dependencies. Version 0.1 is a runnable reference implementation with synthetic examples, not a claim of production deployment.
+**Owner and maintainer: [Anil Kumar Tangirala](https://github.com/anil7000).** Developed with AI assistance. Python 3.11+; no runtime package dependencies. Version 0.1 is a runnable reference implementation with synthetic examples, not a claim of production deployment.
 
 ## Problem it solves
 
