@@ -131,7 +131,7 @@ Future work: broaden domain fixtures, evaluate retrieval/answer quality with a r
 - [Kubernetes: resource management for pods and containers](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/)
 - [Ollama's compatible API documentation](https://docs.ollama.com/api/openai-compatibility)
 
-The operational rules and examples here are original starter implementations informed by public documentation. The three companion projects share an original retrieval/transport core while implementing different domain logic. Source code was developed with AI assistance and is maintained under this account; imported projects elsewhere in the profile retain their own upstream history and licenses.
+The operational rules and examples here are original starter implementations informed by public documentation. The three companion projects share an original retrieval/transport core while implementing different domain logic. Source code is maintained under this account; imported projects elsewhere in the profile retain their own upstream history and licenses.
 
 ## License
 
